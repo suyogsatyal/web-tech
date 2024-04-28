@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            background-color: #86adab;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            margin: auto;
+            gap: 100px;
+        }
+
+        main a{
+            text-decoration: none;
+            color: rgb(113, 113, 247);
+        }
+
+        .main-text {
+            display: grid;
+            align-content: center;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 500px;
+        }
+
+        footer {
+            background-color: #86adab;
+            width: 100%;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./portfolio.html">Home</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-text">
+            <h1>I am Suyog Satyal</h1>
+
+            <p><br>I'm a Computer Science student from Kathmandu, Nepal, with a passion for creating impactful digital
+                experiences. My proficiency in web design using HTML, CSS, and basic JS has enabled me to create
+                websites and complete projects using tools like Vite, NPM, TailwindCSS, Bootstrap, and SASS. <br>
+                <br>I'm
+                currently focusing on mastering ReactJS, an essential skill for frontend web development and eventually
+                continue my way through Node.js. Ultimately, my goal is to become a successful backend web developer who
+                can bring innovative ideas to life through the power of technology. While I don't have a concrete
+                roadmap
+                laid out ahead of me, I'm excited to explore new opportunities and challenges in this field.
+                <br><br>My hobbies include playing video games, watching movies, and reading books.
+                My actual <a href="https://suyogsatyal.netlify.app" target="_blank">Portfolio</a> is under construction.
+            </p>
+            
+        </div>
+        <div>
+            <img src="./me.jpg" alt="">
+        </div>
+    </main>
+    <footer>
+        <h1>Contact</h1>
+        <p>Phone: <a href="tel:+9779841246855">+977 9841246855</a></p>
+        <p>Email: <a href="mailto:suyogsatyal@gmail.com">suyogsatyal@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
